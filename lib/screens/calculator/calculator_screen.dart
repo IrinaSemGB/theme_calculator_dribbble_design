@@ -18,7 +18,7 @@ class CalculatorScreen extends StatelessWidget {
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       body: Padding(
         padding: EdgeInsets.only(
-          top: height * 0.08,
+          top: height * 0.07,
           bottom: height * 0.09,
           right: width * 0.05,
           left: width * 0.05,
@@ -28,7 +28,7 @@ class CalculatorScreen extends StatelessWidget {
           children: [
             Scoreboard(height: height * 0.15, width: width * 0.9),
             SwitchColorContainer(height: height * 0.1),
-            MathButtonsContainer(height: height * 0.56, width: width  * 0.9),
+            MathButtonsContainer(height: height * 0.59, width: width  * 0.9), // height * 0.59
           ],
         ),
       ),

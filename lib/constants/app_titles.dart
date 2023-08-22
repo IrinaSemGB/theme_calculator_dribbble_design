@@ -7,7 +7,7 @@ class AppTitles {
   static const String half = '#';
   static const String percent = '%';
   static const String divider = '÷';
-  static const String multiply = 'х';
+  static const String multiply = 'x';
   static const String minus = '−';
   static const String plus = '+';
   static const String decimalSeparator = '.';

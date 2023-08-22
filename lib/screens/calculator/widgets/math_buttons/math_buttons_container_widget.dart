@@ -37,7 +37,7 @@ class MathButtonsContainer extends StatelessWidget {
               ),
               // %
               RectSymbolButton(height: width * 0.21, width: width * 0.2,
-                color: Theme.of(context).primaryColorLight, title: AppTitles.percent,
+                color: Theme.of(context).primaryColorLight, title: AppTitles.percent, textHeight: 1.1,
               ),
               // ÷
               OvalButton(height: width * 0.21, width: width * 0.2,
@@ -63,7 +63,7 @@ class MathButtonsContainer extends StatelessWidget {
               ),
               // x
               OvalButton(height: width * 0.21, width: width * 0.2,
-                color: Theme.of(context).primaryColorDark, title: AppTitles.multiply,
+                color: Theme.of(context).primaryColorDark, title: AppTitles.multiply, textHeight: 0.7,
               ),
             ],
           ),

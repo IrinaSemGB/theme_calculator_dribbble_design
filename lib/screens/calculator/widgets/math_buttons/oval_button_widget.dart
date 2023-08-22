@@ -7,6 +7,7 @@ class OvalButton extends StatelessWidget {
   final double height;
   final Color color;
   final String title;
+  final double textHeight;
 
   const OvalButton({
     super.key,
@@ -14,6 +15,7 @@ class OvalButton extends StatelessWidget {
     required this.height,
     required this.title,
     required this.color,
+    this.textHeight = 1.0,
   });
 
   @override
@@ -55,6 +57,7 @@ class OvalButton extends StatelessWidget {
                 title,
                 style: Theme.of(context).textTheme.titleLarge?.copyWith(
                   fontSize: width * 0.56,
+                  height: textHeight,
                 ),
               ),
             ),
